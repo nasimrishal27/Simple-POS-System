@@ -59,5 +59,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-- **[Nasim Rishal]**
+- **[Nasim Rishal](https://github.com/nasimrishal27)**
 
