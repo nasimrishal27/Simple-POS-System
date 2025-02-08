@@ -28,11 +28,11 @@ To build and run the project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/nasimrishal27/simple-pos-system.git
+   https://github.com/nasimrishal27/Simple-POS-System.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd simple-pos-system
+   cd Simple-POS-System
    ```
 3. Open `pos.html` or `order.html` in a web browser to run the system.
 
