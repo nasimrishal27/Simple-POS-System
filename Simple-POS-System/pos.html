@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple POS System</title>
+    <link rel="stylesheet" href="pos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="pos.js"></script>
+</head>
+<body>
+    <h1 class="head">Sample POS System</h1>
+    <div class="container">
+        <div class="form1">
+            <form class="customerForm" id="customerForm">
+                <input type="text" id="customerBox" placeholder="Enter Customer Name">
+                <button type="submit">Add</button>
+                <div class="error1"></div>
+            </form>
+            <div class="customerList">
+                <h3 id="customers">Customer Details</h3>
+                <table id="displayCustomer">
+                    <tr>
+                        <th>Si.No</th>
+                        <th>Customer</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="form2">
+            <form class="productForm" id="productForm">
+                <input type="text" id="productBox" placeholder="Enter Product name">
+                <input type="text" id="priceBox" placeholder="Enter Product's Price">
+                <button type="submit">Add</button>
+                <div class="error2"></div>
+            </form>
+            <div class="productList">
+                <h3 id="products">Product Details</h3>
+                <table id="displayProduct">
+                    <tr>
+                        <th>Si.No</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="btnDiv">
+        <button id="btn1">Order Item</button>
+    </div>
+</body>
+</html>
+
